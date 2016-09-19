@@ -18,11 +18,12 @@ Requirements
 
 References
 
-    sesame street
-    bbc kids example 1
-    bbc kids example 2
-    Early learning centre - card game
-    Site featuring mulitplication games & resources
+- [sesame street](http://www.sesamestreet.org/games?id=151)
+- [bbc kids example 1](http://www.bbc.co.uk/cbeebies/games/count-the-pirate-bugs)
+- [bbc kids example 2](http://www.bbc.co.uk/cbeebies/watch/space-counting-quiz)
+- [Early learning centre - card game](http://www.elc.co.uk/Match-the-Numbers/142464,default,pd.html)
+- [Site featuring mulitplication games & resources](http://www.multiplication.com/play/cool/math/games/road_rally_multi_player_multiplication/1666)
+
 
 Site Mock Up
 
