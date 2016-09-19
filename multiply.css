@@ -1,0 +1,327 @@
+
+header
+{
+    padding-top: 14px;
+
+    text-align: center;
+
+    border-bottom: 4px solid #FFC33C;
+    height: 16em;
+    background-color: #60B6C6;
+    /*background-color: #59C4C5;*/
+}
+
+#title
+{
+    display: inline-block;
+
+    /*margin: 20px;*/
+    /*margin-left: 20em;*/
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+    vertical-align: top;
+
+    color: #FFD67D;
+    font: Chalkboard SC Regular;
+    /*font-size: 2em;*/
+}
+
+#title2{
+ font-size: 2em;
+  color: #FFFFFF;
+  /*margin-left: 6.5em;*/
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h1{
+  font-size: 2.5em;
+}
+nav
+{
+    display: inline-block;
+
+}
+
+nav button
+{
+    padding: 14px 30px;
+    border-radius: 20px;
+}
+button{
+color: green;
+border-radius: 2px;
+}
+
+figure.big
+{
+    display: inline-block;
+
+    margin-top:10em;
+    margin-right: 15em;
+    /*border: 1px solid red;*/
+    margin-left: .1em;
+    padding-bottom: 8em;
+}
+
+
+section.mainbuttons{
+  display: inline-block;
+  padding: 1em;
+  border: 5px solid #59C4d4;
+  border-radius: 20px;
+}
+
+
+button.altbutton{
+  display: flex;
+width: 20em;
+height: 20em;
+border-radius: 1em;
+}
+
+#t1{
+  background-color: #FFC33C;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+button p{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#bigtext{
+  font-size: 5em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#t2{
+  background-color: #FFF2D7;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#t3{
+  background-color: #FFF2D7;
+}
+#t3:hover
+{
+    background-color: #8FD4D9;
+}
+
+#t4{
+  background-color: #59C4C5;
+}
+#t4:hover
+{
+    background-color: #8FD4D9;
+}
+
+
+#t5{
+  background-color: #0085B2;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+#t6{
+  background-color: #FFF2D7;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+#catbutton{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#babyg hover span:after{
+  opacity: 1;
+  right: 0;
+}
+
+body
+{
+
+    background-color: #FFFFFF;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+footer
+{
+    width: 100%;
+    height: 8em;
+    margin-top: 5em;
+    padding-top: 20px;
+
+    background-color: #F07818;
+}
+footer p
+{
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+
+/* IDEA: second page styling */
+
+
+
+h2.howmany{
+text-align: center;
+/*padding: 20px;*/
+padding-bottom: 2em;
+font-family: "Quicksand",sans-serif;
+font-size: 2em;
+}
+
+nav i{
+  display: inline;
+
+}
+
+i.fa-home{
+  padding-top: 1.5em;
+  padding-left: 30em;
+}
+
+i.fa-chevron-circle-left{
+  padding-left: 1em;
+
+}
+i.fa-chevron-circle-right{
+  padding-left: 0.5em;
+}
+
+i.fa-times-circle{
+display:inline-block;
+padding-left: 30em;
+}
+
+#exit{
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Quicksand",sans-serif;
+}
+
+figure.giraffes
+{
+    display: inline-block;
+    margin-left: 26em;
+    margin-top: 6em;
+    padding: 5px;
+
+
+
+border-bottom: 1px solid green;
+
+}
+
+figure p{
+  display: inline-block;
+  font-size: 60px;
+  padding: 15px;
+
+}
+#play{
+  display: inline;
+  margin-top: 5em;
+}
+
+div.buttons
+{
+    display: inline-block;
+    /*margin-left: 25em;*/
+margin: auto;
+width: 40%;
+padding: 10px;
+padding-left: 46em;
+font-family: "Quicksand",sans-serif;
+    /*padding: 15px 10px;*/
+    /*margin-left: 20em;*/
+}
+div.buttons
+{
+    -webkit-transition-duration: .4s; /* Safari */
+            transition-duration: .4s;
+}
+
+#b1
+{
+    font-size: 25px;
+    border-radius: 4px;
+    font-family: "Quicksand",sans-serif;
+}
+#b1:hover
+{
+    background-color: #55acee;
+}
+#b2
+{
+    font-size: 25px;
+font-family: "Quicksand",sans-serif;
+    border-radius: 4px;
+}
+#b2:hover
+{
+    background-color: #26acee;
+}
+#b3
+{
+    font-size: 25px;
+font-family: "Quicksand",sans-serif;
+    border-radius: 4px;
+}
+#b3:hover
+{
+    background-color: #35acee;
+}
+
+#b4
+{
+    font-size: 25px;
+  background-color: pink;
+    border-radius: 4px;
+    font-family: "Quicksand",sans-serif;
+}
+#b4:hover
+{
+    background-color: #55acee;
+}
+
+
+
+@media screen
+and(minimum-device-width: 1200px)
+and(max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    #giraffes
+    {
+        width: 250px;
+    }
+    #big
+    {
+        width: 250px;
+    }
+}
+
+@media screen
+  and (device-width: 320px)
+  and (device-height: 480px)
+  and (-webkit-device-pixel-ratio: 2)
+{
+    #giraffes
+    {
+        width: 200px padding:0 float:right;
+    }
+    #big
+    {
+        width: 200px padding:0;
+    }
+}
