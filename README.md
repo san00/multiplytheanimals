@@ -27,4 +27,4 @@ References
 
 Site Mock Up
 
-https://github.com/san00/multiply-me-/issues/1
+[Click here to view site mock up'](https://github.com/san00/multiply-me-/issues/1)
