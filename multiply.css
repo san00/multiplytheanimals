@@ -295,7 +295,7 @@ font-family: "Quicksand",sans-serif;
 }
 
 
-
+/* 
 @media screen
 and(minimum-device-width: 1200px)
 and(max-device-width: 1600px)
@@ -323,5 +323,17 @@ and (-webkit-min-device-pixel-ratio: 1)
     #big
     {
         width: 200px padding:0;
-    }
+    } */
+
+@media only screen and (min-width: 600px) {
+       /* For tablets: */
+       body {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+       /* For desktop: */
+       body {width: 100%;}
+}
+
+
 }
