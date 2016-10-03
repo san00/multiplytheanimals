@@ -1,101 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="multiply.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<title>multiply by 2</title>
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700i|Questrial|Quicksand" rel="stylesheet">
-</head>
-<body>
-<header>
-	<div id="title">
-		<h1>multiply the animals</h1>
-		<!-- <h2>Learn how to multiply!</h2> -->
-	</div>
-	<nav>
-		<a href="index.html"><i class="fa fa-home fa-2x">home</i></a>
-		<a href="index.html"><i class="fa fa-chevron-circle-left fa-2x">back</i></a>
-		<i class="fa fa-chevron-circle-right fa-2x">next</i>
+	<head>
+		<title>multiply by 2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="multiply.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700i|Questrial|Quicksand" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div id="title">
+				<h1>multiply the animals</h1>
+				<!-- <h2>Learn how to multiply!</h2> -->
+			</div>
+			<nav>
+				<a href="index.html"><i class="fa fa-home fa-2x">home</i></a>
+				<a href="index.html"><i class="fa fa-chevron-circle-left fa-2x">back</i></a>
+				<i class="fa fa-chevron-circle-right fa-2x">next</i>
+			</nav>
+		</header>
 
-	</nav>
+		<div class="giraffes">
+			<h2 class="howmany">
+				If we have 2 giraffes and we multiply by another 2 giraffes, how many do we have?
+			</h2>
 
-</header>
+			<div class="flex-container">
+				<img
+					class="flex-item"
+					src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png"
+					alt = "baby giraffe 1">
+				<img
+					class="flex-item"
+					src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png"
+					alt = "baby giraffe 2">
+			</div>
 
+			<p id="multiply">x</p>
 
-				<figure class="giraffes">
+			<div class="flex-container">
+				<img
+					class="flex-item"
+					src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png"
+					alt = "baby giraffe 3">
+				<img
+					class="flex-item"
+					src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png"
+					alt = "baby giraffe 4">
+			</div>
 
-
-
-
-
-					<h2 class="howmany">
-					If we have 2 giraffes and we multiply by another 2 giraffes, how many do we have?
-					</h2>
-
-
-			<img src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png" alt = "baby giraffe 1" style=" width:250px">
-
-			<img src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png" alt = "baby giraffe 2" style="width:250px">
-  <p>
-  	x
-  </p>
-			<img src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png" alt = "baby giraffe 3" style="width:250px">
-
-			<img src="http://3.bp.blogspot.com/-gLWVTHuptak/UpdRjJSLrtI/AAAAAAAAAMw/GnP8jMosjCc/s1600/baby_giraffe_cartoon-992.png" alt = "baby giraffe 4" style="width:250px">
-<p>
-	=
-</p>
-
-			</figure>
+			<p id="equals">=</p>
+		</div>
 
 		<div class="buttons">
 			<button id="b1" >answer = 5</button>
 			<button id="b2">answer = 7</button>
 			<button id="b3" onclick="myFunc()">answer = 4</button>
-			 <button id="b4">Hint</button>
-
-			 <a href="index.html"><i class="fa fa-times-circle fa-2x"> <p id="exit">end game</p></i></a>
-
+			<button id="b4">Hint</button>
+		</div>
+		<div>
+			<a href="index.html"><i class="fa fa-times-circle fa-2x"> <p id="exit">end game</p></i></a>
 		</div>
 
+		<footer>
+		 <p>made by me</p>
+		</footer>
+
+		<script type="text/javascript">
+		b4.addEventListener("click", function() {
+		alert("Hint - How many giraffes can you see. Count them");
+		});
+		</script>
+
+		<script type="text/javascript">
+			b1.addEventListener("click", function (){
+				alert("No, try again, remember to count the total number of giraffes");
+			});
+		</script>
+
+		<script type="text/javascript">
+			b2.addEventListener("click", function (){
+				alert("No, try again, remember to count the total number of giraffes");
+			});
+		</script>
+
+		<!-- <script type="text/javascript">
+			b3.addEventListener("click", function (){
+				alert("Well done. The answer is 4");
+			});
+		</script> -->
+
+		<script>
+		function myFunc() {
+		    document.getElementById("b3").innerHTML = "4 giraffes is the correct answer.";
+		}
+		</script>
 
 
-				 <footer>
-					 <p>
- 						made by me
- 					</p>
-				 </footer>
-
-<script type="text/javascript">
-b4.addEventListener("click", function() {
-alert("Hint - How many giraffes can you see. Count them");
-});
-</script>
-
-<script type="text/javascript">
-	b1.addEventListener("click", function (){
-		alert("No, try again, remember to count the total number of giraffes");
-	});
-</script>
-
-<script type="text/javascript">
-	b2.addEventListener("click", function (){
-		alert("No, try again, remember to count the total number of giraffes");
-	});
-</script>
-
-<!-- <script type="text/javascript">
-	b3.addEventListener("click", function (){
-		alert("Well done. The answer is 4");
-	});
-</script> -->
-
-<script>
-function myFunc() {
-    document.getElementById("b3").innerHTML = "4 giraffes is the correct answer.";
-}
-</script>
-
-
-</body>
+	</body>
 </html>
